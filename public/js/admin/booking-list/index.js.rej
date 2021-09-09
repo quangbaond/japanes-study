@@ -1,0 +1,18 @@
+diff a/Source_Code/public/js/admin/booking-list/index.js b/Source_Code/public/js/admin/booking-list/index.js	(rejected hunks)
+@@ -181,6 +181,16 @@
+         });
+       }
+     });
++    table.on('draw', function () {
++      if (table.data().any()) {
++        $(this).parent().show();
++      } else {
++        $('#bookingHistory_wrapper').remove();
++        $(this).parent().hide();
++        $('#no-data').removeClass('d-none');
++        $('#no-data').addClass('d-block');
++      }
++    });
+     $('#bookingHistory tbody').on('click', 'td button', function (e) {
+       var data_row = table.row($(this).closest('tr')).data();
+       var booking_id = data_row.booking_id;

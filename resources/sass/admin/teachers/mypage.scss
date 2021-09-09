@@ -1,0 +1,23 @@
+h3 {
+    & > span {
+        font-weight: 300 !important;
+        font-size: 65% !important;
+    }
+}
+table .dataTable {
+    margin-top: 0px !important;
+    border-top: 0px;
+}
+label {
+    cursor: pointer;
+}
+
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.custom-a-tag {
+    text-decoration: underline;
+}

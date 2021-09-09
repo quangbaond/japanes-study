@@ -1,0 +1,25 @@
+.w-8 {
+    width: 4em;
+    height: 2em;
+}
+.w-3 {
+    width: 3em;
+    height: 2em;
+}
+#image_url {
+    width: 0px;
+    height: 0px;
+    overflow: hidden;
+}
+.profile-user-img{
+    height: 100px !important;
+}
+#clearImage{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    left: 10px;
+    top: 5px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}

@@ -1,0 +1,37 @@
+#btnCancel {
+  /* display: none; */
+  opacity: 0;
+}
+
+.introduce {
+  position: relative;
+  padding: 10px;
+}
+
+.introduce > .cancel {
+  position: absolute;
+  top: -10px;
+  right: -4px;
+}
+
+#showCancel:hover #btnCancel {
+  /* display: none; */
+  opacity: 1;
+}
+
+#btnCancel:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#remove-video {
+  /*background: rgb(192,225,229);*/
+  height: 320px;
+  border: 2px solid #dee2e6;
+}
+
+li.select2-results__option:first-child {
+  width: 100% !important;
+  height: auto !important;
+}
+

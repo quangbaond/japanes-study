@@ -1,0 +1,171 @@
+.w-12_5 {
+    width: 12.5%!important;
+}
+.box-shadow-none {
+    box-shadow: none!important;
+}
+.box-shadow-none:hover {
+    transform: scale(1.2)!important;
+}
+.custom-info-box {
+    box-shadow: 0 0 2px rgba(0,0,0,.125), 0 5px 10px rgba(0,0,0,.2) !important;
+    border: 1px solid rgba(135,144,133,0.5) !important;
+    border-radius: 10px !important;
+}
+.custom-border-right {
+    border-right-width: 2px!important;
+    border-right-style: solid!important;
+    border-right-color: rgba(135,144,133,0.5)!important;
+}
+.custom-border-bottom {
+    border-bottom-width: 2px!important;
+    border-bottom-style: solid!important;
+    border-bottom-color: rgba(135,144,133,0.5)!important;
+}
+.custom-info-box:hover {
+    background: linear-gradient(153deg, rgba(23,219,193,0.09600143475358897) 100%, rgba(18,229,205,0) 100%)!important;
+    transform: scale(1.03)!important;
+}
+
+li.select2-results__option:first-child{
+    width: 100%!important;
+    height: 25px!important;
+}
+.border-2 {
+    border-width:2px !important;
+}
+.MultiCarousel {
+    float: left!important;
+    overflow: hidden!important;
+    padding: 15px!important;
+    width: 100%!important;
+    position:relative!important;
+}
+.MultiCarousel .MultiCarousel-inner {
+    transition: 1s ease all!important;
+    float: left!important;
+}
+.MultiCarousel .MultiCarousel-inner .item {
+    float: left!important;
+}
+.MultiCarousel .MultiCarousel-inner .item > div {
+    text-align: center!important;
+    padding:10px!important;
+    margin:10px!important;
+    color:#666!important;
+}
+.MultiCarousel .leftLst, .MultiCarousel .rightLst {
+    position:absolute!important;
+    border-radius:50%!important;
+    top:calc(50% - 20px)!important;
+}
+.MultiCarousel .leftLst {
+    left:0!important;
+}
+.MultiCarousel .rightLst {
+    right:0!important;
+}
+
+.MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+@media only screen and (max-width: 320px) {
+    .mobile-width-100 {
+        min-width: 100% !important;
+    }
+    .avatar-card-home-page-of-student {
+        width: 40px!important;
+        height: 40px!important;
+        object-fit: cover!important;
+        margin-top: 30px!important;
+        margin-bottom: 30px!important;
+    }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 321px) {
+    .mobile-width-100 {
+        min-width: 100% !important;
+    }
+    .avatar-card-home-page-of-student {
+        width: 62px!important;
+        height: 62px!important;
+        object-fit: cover!important;
+        margin-top: 19px!important;
+        margin-bottom: 19px!important;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    .avatar-card-home-page-of-student {
+        width: 68px!important;
+        height: 68px!important;
+        object-fit: cover!important;
+        margin-top: 16px!important;
+        margin-bottom: 16px!important;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .avatar-card-home-page-of-student {
+        width: 100px!important;
+        height: 100px!important;
+        object-fit: cover!important;
+    }
+}
+.btnRedirect:hover {
+    cursor: pointer!important;
+}
+.block-ellipsis {
+    display: block!important;
+    display: -webkit-box!important;
+    max-width: 100%!important;
+    height: 100%!important;
+    margin: 0!important;
+    font-size: 1rem!important;
+    line-height: 1!important;
+    -webkit-line-clamp: 5!important;
+    -webkit-box-orient: vertical!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+}
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(33.333%);
+    }
+
+    .carousel-inner .carousel-item-left.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{
+    transform: translateX(0);
+}
+
+
+
+.card-online{
+    margin-top: 5px!important;
+    background-color: #D8E6E7!important;
+}
+.card-online:hover {
+    cursor: pointer!important;
+    transform: scale(1.02)!important;
+}
+

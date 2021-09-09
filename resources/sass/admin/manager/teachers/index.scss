@@ -1,0 +1,12 @@
+td {
+    max-width: 70px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+thead > tr > th {
+  overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 20px;
+}

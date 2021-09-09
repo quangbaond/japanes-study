@@ -1,0 +1,16 @@
+.symbol {
+  display: inline-block;
+  border-radius: 50%;
+  border: 5px double white;
+  width: 100px;
+  height: 30px;
+}
+
+.symbol-empty {
+  color: #ccc;
+}
+
+.symbol-filled {
+  color: #FFBC42;
+  font-weight: 900;
+}

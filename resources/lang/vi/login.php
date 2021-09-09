@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'login' => 'Đăng nhập',
+    'sign_in' => 'Đăng nhập để bắt đầu',
+    'remember_me' => 'Nhớ tài khoản',
+    'sign_in_facebook' => 'Facebook',
+    'sign_in_google' => 'Google+',
+    'sign_in_zalo' => 'Zalo',
+    'forgot_password' => 'Quên mật khẩu?',
+    'register' => 'Đăng ký',
+    'reset_password' => 'Đặt lại mật khẩu',
+    'send_link' => 'Gửi liên kết đặt lại mật khẩu',
+    'membership' => 'Tôi đã có một thành viên',
+    'i_agree_to_the' => 'Tôi đồng ý với',
+    'terms_of_service' => 'Điều Khoản Dịch Vụ',
+    'register_a_new_membership' => 'Register a new membership',
+    'email' => 'Email',
+    'password' => 'Mật khẩu',
+    'name' => 'Họ tên',
+    'password_confirm' => 'Xác nhận mật khẩu',
+    'login_with' => 'Đăng nhập bằng tài khoản khác',
+    'error_login' => 'Đăng nhập thất bại.',
+    'setting_password' => 'Setting password',
+    'excerpt_setting_password' => 'Bạn đã đăng nhập bằng tài khoản ',
+    'excerpt_setting_password_2' => 'Từ lần sau bạn có thể sử dụng email và password này để Login trực tiếp vào website',
+    'update_error' => 'Cập nhật không thành công',
+];

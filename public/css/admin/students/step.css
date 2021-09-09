@@ -1,0 +1,145 @@
+#color-body {
+  background-color: #23a6d5;
+  background: linear-gradient(-45deg, #23a6d5, #23d5ab, #23a6d5, #23d5ab);
+  height: auto;
+  font-size: 90%;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#msform {
+  text-align: center;
+  position: relative;
+  margin-top: 20px;
+}
+
+.card {
+  z-index: 0;
+  border: none;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+#progressbar {
+  margin-bottom: 10px;
+  overflow: hidden;
+  color: lightgrey;
+}
+
+#progressbar .active {
+  color: #000000;
+}
+
+#progressbar li {
+  list-style-type: none;
+  font-size: 12px;
+  width: 20%;
+  float: left;
+  position: relative;
+}
+
+#progressbar #account:before {
+  content: "1";
+}
+
+#progressbar #personal:before {
+  content: "2";
+}
+
+#progressbar #payment:before {
+  content: "3";
+}
+
+#progressbar #confirm:before {
+  content: "4";
+}
+
+#progressbar #finish:before {
+  content: "5";
+}
+
+#progressbar li:before {
+  width: 50px;
+  height: 50px;
+  line-height: 45px;
+  display: block;
+  font-size: 18px;
+  color: #ffffff;
+  background: lightgray;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  padding: 2px;
+}
+
+#progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: lightgray;
+  position: absolute;
+  left: 0;
+  top: 25px;
+  z-index: -1;
+}
+
+#progressbar li.active:before,
+#progressbar li.active:after {
+  background: #f9a11b;
+}
+
+.w-8 {
+  width: 3.5em;
+  height: 2em;
+}
+
+.w-10 {
+  width: 4em;
+  height: 2em;
+}
+
+#clearImage {
+  cursor: pointer;
+}
+
+#image_photo {
+  width: 0px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.profile-user-img {
+  height: 80px !important;
+  width: 80px !important;
+}
+

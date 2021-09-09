@@ -1,0 +1,16 @@
+
+    .w-12_5 {
+        width: 12.5%!important;
+    }
+    .bg-flag-vietnam {
+        background-image: url("{{ asset('images/Flag_of_Vietnam.png') }}");
+        background-position: center ;
+        background-size: cover;
+    }
+    .bg-flag-italia {
+        background-image: url("{{ asset('images/Flag_of_Italia.png') }}");
+        background-position: center ;
+        background-size: cover;
+    }
+    
+    
